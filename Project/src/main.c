@@ -4,7 +4,6 @@
 /*Declare Struct*/
 GPIO_InitTypeDef GPIO_InitStructure;
 
-/*declare function*/
 void init_GPIO(void);
 
 
