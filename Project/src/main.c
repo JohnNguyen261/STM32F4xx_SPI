@@ -4,7 +4,6 @@
 /*Declare Struct*/
 GPIO_InitTypeDef GPIO_InitStructure;
 
-/*declare function*/
 void init_GPIO(void);
 
 
@@ -13,7 +12,8 @@ void SysTick_Handler()
 {
 	TimingDelay_Decrement();
 }
-
+  
+  
 void init_GPIO()
 {
 	/*setting PORT Led*/
